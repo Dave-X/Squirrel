@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{4DD8C06B-BD83-4681-ACE4-B8E6DD28202B}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>Z:\Dropbox\Github\Squirrel\Squirrel\SquirrelContent\</RootDirectory>
+      <LoggerRootDirectory>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\</LoggerRootDirectory>
+      <IntermediateDirectory>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-05T14:25:46.0532594-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -23,6 +23,8 @@ namespace Squirrel
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+
         }
 
         /// <summary>
