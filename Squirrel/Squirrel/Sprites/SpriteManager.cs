@@ -15,8 +15,10 @@ namespace Squirrel
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
-    public class SpriteManager : Microsoft.Xna.Framework.GameComponent
+    public class SpriteManager : Microsoft.Xna.Framework.DrawableGameComponent
     {
+        SpriteBatch spriteBatch;
+        
         public SpriteManager(Game game)
             : base(game)
         {
@@ -29,7 +31,7 @@ namespace Squirrel
         /// </summary>
         public override void Initialize()
         {
-            // TODO: Add your initialization code here
+            spriteBatch = new SpriteBatch(Game.GraphicsDevice);
 
             base.Initialize();
         }
@@ -41,8 +43,29 @@ namespace Squirrel
         public override void Update(GameTime gameTime)
         {
             // TODO: Add your update code here
-            System.Diagnostics.Debug.WriteLine("sprite");
+
+            foreach (Sprite s in Game1.Obstacles)
+            {
+                s.Update(gameTime);
+            }
+
+
             base.Update(gameTime);
+        }
+
+
+        public override void Draw(GameTime gameTime)
+        {
+            spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
+            {
+                foreach (Sprite s in Game1.Obstacles)
+                {
+                    s.Draw(gameTime, spriteBatch);
+                }
+            }
+            spriteBatch.End();
+
+            base.Draw(gameTime);
         }
     }
 }

@@ -18,7 +18,10 @@ namespace Squirrel
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        SpriteManager x;
+        SpriteManager spriteManager;
+
+        public static List<Sprite> Obstacles = new List<Sprite>();
+
 
         public Game1()
         {
@@ -37,8 +40,8 @@ namespace Squirrel
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            x = new SpriteManager(this);
-
+            spriteManager = new SpriteManager(this);
+            Components.Add(spriteManager);
 
             base.Initialize();
         }
@@ -51,8 +54,12 @@ namespace Squirrel
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            Components.Add(x);
-            // TODO: use this.Content to load your game content here
+
+
+            //Obstacles.Add(new StaticSprite(Content.Load<Texture2D>(@"sampleSpriteSheet"), Vector2.Zero));
+            Obstacles.Add(new AnimatedSprite(Content.Load<Texture2D>(@"sampleSpriteSheet"), Vector2.Zero, new Point(128, 128), new Point(0, 0), new Point(4, 4), 16));
+
+            Obstacles[0].moveTo(50f, 100f);
         }
 
         /// <summary>
@@ -74,7 +81,7 @@ namespace Squirrel
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
-            //System.Diagnostics.Debug.WriteLine("update");
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -87,7 +94,7 @@ namespace Squirrel
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            System.Diagnostics.Debug.WriteLine("draw");
+
             
 
             // TODO: Add your drawing code here
