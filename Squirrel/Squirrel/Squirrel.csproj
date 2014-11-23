@@ -74,12 +74,13 @@
   <ItemGroup>
     <Compile Include="Creature.cs" />
     <Compile Include="Enumerations.cs" />
-    <Compile Include="GameObject.cs" />
+    <Compile Include="SpriteBase.cs" />
     <Compile Include="Obstacle.cs" />
     <Compile Include="PowerUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Sprite.cs" />
     <Compile Include="SpriteManager.cs" />
   </ItemGroup>
   <ItemGroup>

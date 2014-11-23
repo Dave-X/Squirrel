@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Squirrel
 {
-    class GameObject
+    class SpriteBase
     {
         private Vector2 Position { get; set; } // Stores the position of this GameObject.
     } // GameObject

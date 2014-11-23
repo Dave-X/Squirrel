@@ -4,3 +4,4 @@ Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.csprojResolv
 Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.exe
 Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.pdb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\sampleSpriteSheet.xnb

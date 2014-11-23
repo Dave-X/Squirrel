@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Squirrel
 {
-    class Obstacle : GameObject
+    class Obstacle : SpriteBase
     {
         ObstacleCategory Category { get; set; } // Stores what type of obstacle this is.
 
