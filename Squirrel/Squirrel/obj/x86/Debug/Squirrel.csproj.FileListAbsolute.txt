@@ -5,3 +5,11 @@ Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Microsoft.Xna.Framewo
 Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.exe
 Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.pdb
 Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\sampleSpriteSheet.xnb
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\sampleSpriteSheet.xnb
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Squirrel.exe
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Squirrel.pdb
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.csprojResolveAssemblyReference.cache
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.exe
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\obj\x86\Debug\Squirrel.pdb
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\ground.xnb
