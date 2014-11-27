@@ -19,6 +19,8 @@ namespace Squirrel
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SpriteManager spriteManager;
+        Map map;
+        public static int ScreenWidth, ScreenHeight;
 
         public static List<Sprite> Obstacles = new List<Sprite>();
 
@@ -40,6 +42,12 @@ namespace Squirrel
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            ScreenWidth = 800;
+            ScreenHeight = 600;
+
+            map = new Map(this);
+            Components.Add(map);
+
             spriteManager = new SpriteManager(this);
             Components.Add(spriteManager);
 

@@ -63,7 +63,7 @@ namespace Squirrel
                 position.Y = 0;
 
             //test controls for map movement
-            /*
+            
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
                 this.updateMapPosition(new Vector2(0f, -5f));
             if (Keyboard.GetState().IsKeyDown(Keys.Down))
@@ -72,7 +72,7 @@ namespace Squirrel
                 this.updateMapPosition(new Vector2(5f, 0f));
             if (Keyboard.GetState().IsKeyDown(Keys.Left))
                 this.updateMapPosition(new Vector2(-5f, 0f));
-            */
+            
             
             base.Update(gameTime);
         }
@@ -101,11 +101,22 @@ namespace Squirrel
         /// <param name="playerPosition">References the player's current position.</param>
         public void updateMapPosition(Vector2 playerMovement)
         {
+            //move map based on playerMovement
+            Vector2 oldPosition = this.position;
             this.position += playerMovement;
+            //boundaries for map movement to stop player from walking off the map.
+            if (position.X <= -(mapSize.X - GraphicsDevice.Viewport.Width))     //Left boundary
+                position.X = -(mapSize.X - GraphicsDevice.Viewport.Width);
+            if (position.Y <= -(mapSize.Y - GraphicsDevice.Viewport.Height))    //Top boundary
+                position.Y = -(mapSize.Y - GraphicsDevice.Viewport.Height);
+            if (position.X >= 0)                                                //Right boundary
+                position.X = 0;
+            if (position.Y >= 0)                                                //Bottom boundary
+                position.Y = 0;
             //loop through and update the position of each obstacle relative to any map movement done this frame
             foreach (Sprite obstacle in Game1.Obstacles)
             {
-                obstacle.position -= playerMovement;
+                obstacle.position += (oldPosition - this.position);
             }
         }
 
