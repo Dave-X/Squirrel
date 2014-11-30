@@ -1,1 +1,2 @@
 Z:\Dropbox\Github\Squirrel\Squirrel\SquirrelContent\obj\x86\Release\SquirrelContent.contentprojResolveAssemblyReference.cache
+C:\school\2014fall\cs4332.501\Squirrel\Squirrel\SquirrelContent\obj\x86\Release\SquirrelContent.contentprojResolveAssemblyReference.cache
