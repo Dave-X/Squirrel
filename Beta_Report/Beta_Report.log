@@ -1,14 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.10.8)  29 NOV 2014 23:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.12)  30 NOV 2014 15:09
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **Beta_Report.tex
-(./Beta_Report.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
+(Z:\Dropbox\Github\Squirrel\Beta_Report\Beta_Report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,13 +30,13 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/2014/texmf-dist/tex/latex/preprint/fullpage.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-(c:/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-(c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 \lst@mode=\count87
@@ -45,38 +52,38 @@ Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \lst@lineno=\count92
 \lst@maxwidth=\dimen106
 
-(c:/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count93
 \lst@skipnumbers=\count94
 \lst@framebox=\box27
 )
-(c:/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(c:/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -84,28 +91,28 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
 )
-(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -114,11 +121,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -131,15 +138,11 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(c:/texlive/2014/texmf-dist/tex/latex/bbding/bbding.sty
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\bbding\bbding.sty"
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 )
-(c:/texlive/2014/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count96
 \float@exts=\toks16
@@ -147,14 +150,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks17
 \@floatcapt=\box29
 )
-(c:/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count97
@@ -169,10 +172,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen115
 \Gm@layoutvoffset=\dimen116
 \Gm@dimlist=\toks18
-)
-(./Beta_Report.aux)
-\openout1 = `Beta_Report.aux'.
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(Z:\Dropbox\Github\Squirrel\Beta_Report\Beta_Report.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
@@ -186,7 +188,8 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 \c@lstlisting=\count100
- (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen117
@@ -242,38 +245,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
 [1
 
-{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Beta_Report.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(Z:\Dropbox\Github\Squirrel\Beta_Report\Beta_Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 )
 \tf@toc=\write3
-\openout3 = `Beta_Report.toc'.
-
  [2]
-LaTeX Font Info:    Try loading font information for U+ding on input line 36.
- (c:/texlive/2014/texmf-dist/tex/latex/bbding/uding.fd
+LaTeX Font Info:    Try loading font information for U+ding on input line 30.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\bbding\uding.fd"
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-)
-[3] [4]
+) [3] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
 [5]
 Package epstopdf Info: Source file: <UML/GameObject.eps>
-(epstopdf)                    date: 2014-11-29 21:50:12
+(epstopdf)                    date: 2014-11-29 18:26:27
 (epstopdf)                    size: 13297 bytes
 (epstopdf)             Output file: <UML/GameObject-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-29 21:50:12
+(epstopdf)                    date: 2014-11-29 18:27:47
 (epstopdf)                    size: 3311 bytes
-(epstopdf)             Command: <repstopdf --outfile=UML/GameObject-eps-convert
-ed-to.pdf UML/GameObject.eps>
+(epstopdf)             Command: <epstopdf --outfile=UML/GameObject-eps-converte
+d-to.pdf UML/GameObject.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
- <UML/GameObject-eps-converted-to.pdf, id=25, 225.84375pt x 246.9225pt>
+ <UML/GameObject-eps-converted-to.pdf, id=24, 225.84375pt x 246.9225pt>
 File: UML/GameObject-eps-converted-to.pdf Graphic file (type pdf)
 
 <use UML/GameObject-eps-converted-to.pdf>
@@ -281,51 +282,53 @@ Package pdftex.def Info: UML/GameObject-eps-converted-to.pdf used on input line
  138.
 (pdftex.def)             Requested size: 112.92159pt x 123.46094pt.
 Package epstopdf Info: Source file: <UML/Sprite.eps>
-(epstopdf)                    date: 2014-11-29 21:50:12
+(epstopdf)                    date: 2014-11-29 18:27:17
 (epstopdf)                    size: 15302 bytes
 (epstopdf)             Output file: <UML/Sprite-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-29 21:50:12
+(epstopdf)                    date: 2014-11-29 18:27:48
 (epstopdf)                    size: 3639 bytes
-(epstopdf)             Command: <repstopdf --outfile=UML/Sprite-eps-converted-t
-o.pdf UML/Sprite.eps>
+(epstopdf)             Command: <epstopdf --outfile=UML/Sprite-eps-converted-to
+.pdf UML/Sprite.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<UML/Sprite-eps-converted-to.pdf, id=26, 610.28pt x 456.70625pt>
+<UML/Sprite-eps-converted-to.pdf, id=25, 610.28pt x 456.70625pt>
 File: UML/Sprite-eps-converted-to.pdf Graphic file (type pdf)
 
 <use UML/Sprite-eps-converted-to.pdf>
 Package pdftex.def Info: UML/Sprite-eps-converted-to.pdf used on input line 143
 .
 (pdftex.def)             Requested size: 305.13925pt x 228.35255pt.
- [6 <./UML/GameObject-eps-converted-to.pdf>] <UML/SpriteSampleScreen.png, id=34
-, 770.88pt x 385.44pt>
+ [6 <Z:/Dropbox/Github/Squirrel/Beta_Report/UML/GameObject-eps-converted-to.pdf
+>]
+<UML/SpriteSampleScreen.png, id=33, 770.88pt x 385.44pt>
 File: UML/SpriteSampleScreen.png Graphic file (type png)
 
 <use UML/SpriteSampleScreen.png>
 Package pdftex.def Info: UML/SpriteSampleScreen.png used on input line 151.
 (pdftex.def)             Requested size: 308.34654pt x 154.17326pt.
- [7 <./UML/Sprite-eps-converted-to.pdf> <./UML/SpriteSampleScreen.png>] [8] (./
-Beta_Report.aux) ) 
+ [7 <Z:/Dropbox/Github/Squirrel/Beta_Report/UML/Sprite-eps-converted-to.pdf> <Z
+:/Dropbox/Github/Squirrel/Beta_Report/UML/SpriteSampleScreen.png>] [8] (Z:\Drop
+box\Github\Squirrel\Beta_Report\Beta_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3412 strings out of 493107
- 49488 string characters out of 6138427
- 118975 words of memory out of 5000000
- 6826 multiletter control sequences out of 15000+600000
- 8387 words of font info for 30 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,7n,32p,937b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
- <c:/Users/Matthew/.texlive2014/texmf-var/fonts/pk/ljfour/pub
-lic/bbding/bbding10.600pk><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c
-:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Beta_Report.pdf (8 pages, 929770 bytes).
+ 3410 strings out of 493921
+ 50214 string characters out of 3144879
+ 115184 words of memory out of 3000000
+ 6652 multiletter control sequences out of 15000+200000
+ 8387 words of font info for 30 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,7n,32p,938b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Dave\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\public\bbding\dpi600\bbding10.pk><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Beta_Report.pdf (8 pages, 937494 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

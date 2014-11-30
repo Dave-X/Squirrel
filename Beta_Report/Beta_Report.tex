@@ -25,9 +25,9 @@
 	\newpage
 	\section{Summary of Milestones}
 	\subsection{Work Performed \& Required Breakdown}
-		Even before beginning on the project, it became clear that many of our original labor divisions overlapped.  For example, the original plan was for Matt to implement the map and for David to implement the movement and resctritions of that.  However, this became a simple process for Matt to complete as part of the Map class development.  We will attempt to maintain the division between tasks as originally planned, but as the project proceeds, it is easier to complete tasks on an ``as needed and what is next'' basis.
+		Before beginning on the project, it became clear that many of our original labor divisions overlapped.  For example, the original plan was for Matt to implement the map and for David to implement the movement and resctritions of that.  However, this became a simple process for Matt to complete as part of the Map class development.  We will attempt to maintain the division between tasks as originally planned, but as the project proceeds, it is easier to complete tasks on an ``as needed and what is next'' basis.
 		
-		Below is a list of the original milestones.  Checkmarks represent a completed tasks, while an ``X'' is an incomplete task.  Additional new information is provided in bold.
+		Below is a list of the original milestones.  A \Checkmark represent a completed tasks while an \XSolidBrush is an incomplete task.  New information is provided in bold.
 		\subsubsection{First Milestone: Project Organization}
 		Estimated Time: Half a day to one day.\\
 		\textbf{Actual Time Used: About an hour.}\\
@@ -105,7 +105,7 @@
 			Assigned To: Matt Coley and David Ickert		
 	\section{Challenges}
 		\subsection{Getting Started}
-			One of the first challenges we faced was getting started.  Consequently, we met an additional time to discuss how we should proceed and to examine some questions that arose since the project proposal.  One topic of discussion was how to handle the map.  We decided, based on its uniqueness, to create it as its own class with its own draw and update methods.  We also discussed the size of the map and concluded that 2400 x 1800 pixels are sufficient.  However, this is arbitrary and subject to change.  Based on the types of objects in the game, we decided on the best draw order, game compents order, and discussed several possible game states.\\\\
+			One of the first challenges we faced was getting started.  Consequently, we met an additional time to discuss how we should proceed and to examine some questions that arose since the project proposal.  One topic of discussion was how to handle the map.  We decided, based on its uniqueness, to create it as its own class with its own draw and update methods instead of using the Sprite classes.  We also discussed the size of the map and concluded that 2400 x 1800 pixels are sufficient.  However, this is arbitrary and subject to change.  Based on the types of objects in the game, we decided on the best draw order, game compents order, and discussed several possible game states.\\\\
 			\textbf{Draw Order (back to front)}
 			\begin{enumerate}
 				\item Map
@@ -132,7 +132,7 @@
 				\item New\_Round - Generate a new map.
 			\end{enumerate}
 		\subsection{The Sprite Class (David Ickert)}
-			We quickly realized that the game engine did not need the original planned base class, GameObject.  This class, from which all other classes derived from, had one attribute for position and two methods for the size.  Since our game is 2D, and everything is composed of sprites, we decided to change the base class to an abstract Sprite class.  This has the same capabilities as the GameObject, but adds textures, and extends to cover most other classes from static sprites to animated characters.  More important, we incorporation two new virtual methods that allow polymorphism for update and draw.  Each sprite in the game now updates and draws itself.  This removes large amounts of code from the base update and adds a new layer of abstraction.
+			We quickly realized that the game engine did not need the original planned base class, GameObject.  This class, from which all other classes derived from, had one attribute for position and two methods for the size.  Since our game is 2D, and everything is composed of sprites, we decided to change the base class to an abstract Sprite class.  This has the same capabilities as the GameObject, but adds textures, and extends to cover most other classes from static sprites to animated characters.  More important, we incorperated two new virtual methods that allow polymorphism for both update and draw.  Each sprite in the game is able update and draw itself as a result.  This removes large amounts of code from the base update and adds a new layer of abstraction.
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.50]{UML/GameObject}
@@ -144,7 +144,7 @@
 				\caption{New Sprite Class}				
 			\end{figure}
 			
-			Creating the AnimatedSprite class was not too difficult.  The most challenging aspect is the how to make changes during the update method to show the correct sequence.  The first few attempts either did not animation correct or animated is distrubing ways.  I expect that this class will need to be extended to handle multiple animations per a sprite sheet.  For example,  a character needs two unique animations when walking north versus walking south.  For now, I used a simple sprite sheet I found online for testing.
+			Creating the AnimatedSprite class was not too difficult.  The most challenging aspect is the how to make changes during the update method to show the correct sequence.  The first few attempts either did not animate correctly or failed to animate entirely.  I expect that this class will need to be extended to handle multiple animations per a sprite sheet.  For example,  a character needs two unique animations when walking north versus walking south.  For now, I used a simple sprite sheet I found online for testing.
 			
 			\begin{figure}[H]
 				\centering
@@ -153,7 +153,7 @@
 			\end{figure}
 			
 		\subsection{The SpriteManager (David Ickert)}
-			Our changes from the GameObject base class to the Sprite base class lead to the development of the SpriteManager class.  This is the first XNA game component of the project and it has several important functions in the game engine.  First, it overrides both the update and draw method to call each sprites respective methods.  Second, it ensures that the game draws each sprite in the correct order previously discussed.  Finally, it adds that additional layer of abstraction and removes more code from the base update and draw methods.
+			Our changes from the GameObject base class to the Sprite base class lead to the development of the SpriteManager class.  This is an XNA game component and it has several important functions in the game engine.  First, it overrides both the update and draw method to call each sprites respective methods.  Second, it ensures that the game draws each sprite in the correct order previously discussed.  Finally, it helps by adding that additional layer of abstraction and removes more code from the base update and draw methods.
 		\subsection{The Map (Matt Coley)}
 			When getting ready to implement the map, we realized that the map will end up being quite large, when measured in pixels.  This meant our initial idea of creating a solid background texture would have been too large and hindered performance too much.  We solved this problem by creating a tiled background texture that can repeat a ground pattern which is restricted to our texture size limits.  The map also needed the ability to pan.  This proved a larger task than we initially anticipated.  We did not want to over-complicate the logic by introducing a camera, so we decided to make the map pan and leave the player in the same spot relative to the screen boundaries.  This also meant that every item on the map needed to be updated whenever the player moved.  We decided that the time saved and complications avoided with camera movement where worth the performance hit of the extra position updates each frame.
 		\subsection{Game Menu (Matt Coley)}
