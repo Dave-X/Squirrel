@@ -18,6 +18,7 @@ namespace Squirrel
     public class SpriteManager : Microsoft.Xna.Framework.DrawableGameComponent
     {
         SpriteBatch spriteBatch;
+        private List<Sprite> sprites = new List<Sprite>();
         
         public SpriteManager(Game game)
             : base(game)
