@@ -15,3 +15,6 @@ C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\obj\x86\Release\Squirre
 C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\obj\x86\Release\Squirrel.pdb
 C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\resumeButton.xnb
 C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\quitButton.xnb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\resumeButton.xnb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\quitButton.xnb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Release\Squirrel.csprojResolveAssemblyReference.cache
