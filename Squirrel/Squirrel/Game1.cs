@@ -20,6 +20,7 @@ namespace Squirrel
         SpriteBatch spriteBatch;
         SpriteManager spriteManager;
         Map map;
+        Menu menu;
 
         // Changed these to constants and declared here so the size can be set in the constructor.
         // Graphics information.
@@ -52,6 +53,9 @@ namespace Squirrel
 
             spriteManager = new SpriteManager(this);
             Components.Add(spriteManager);
+
+            menu = new Menu(this);
+            Components.Add(menu);
 
             base.Initialize();
         }
@@ -88,9 +92,15 @@ namespace Squirrel
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                this.Exit();
+            //skips over all game logic while game is paused
+            if (menu.isPaused)
+            {
+                menu.Update(gameTime);  //needed so the update functionality in the menu class still works while paused
+                return;
+            }
+            //opens the game menu
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                menu.isPaused = true;
 
             // TODO: Add your update logic here
 
