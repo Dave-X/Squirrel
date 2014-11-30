@@ -155,6 +155,10 @@
 		\subsection{The SpriteManager (David Ickert)}
 			Our changes from the GameObject base class to the Sprite base class lead to the development of the SpriteManager class.  This is the first XNA game component of the project and it has several important functions in the game engine.  First, it overrides both the update and draw method to call each sprites respective methods.  Second, it ensures that the game draws each sprite in the correct order previously discussed.  Finally, it adds that additional layer of abstraction and removes more code from the base update and draw methods.
 		\subsection{The Map (Matt Coley)}
+			When getting ready to implement the map, we realized that the map will end up being quite large, when measured in pixels.  This meant our initial idea of creating a solid background texture would have been too large and hindered performance too much.  We solved this problem by creating a tiled background texture that can repeat a ground pattern which is restricted to our texture size limits.  The map also needed the ability to pan.  This proved a larger task than we initially anticipated.  We did not want to over-complicate the logic by introducing a camera, so we decided to make the map pan and leave the player in the same spot relative to the screen boundaries.  This also meant that every item on the map needed to be updated whenever the player moved.  We decided that the time saved and complications avoided with camera movement where worth the performance hit of the extra position updates each frame.
+		\subsection{Game Menu (Matt Coley)}
+			The game menu was fairly simple to set up.  We decided to keep the menu drawing separate from the sprite manager.  This allowed us to work simultaneously on both parts.  Also, the rendering requirements for the menu system were very slim.  We have basic pause, continue, and quit game functionality in the game menu.
+		\subsection{Main Menu (Matt Coley)}
 			
 			
 \end{document}

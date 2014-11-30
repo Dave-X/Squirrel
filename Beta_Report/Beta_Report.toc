@@ -14,3 +14,5 @@
 \contentsline {subsection}{\numberline {2.2}The Sprite Class (David Ickert)}{6}
 \contentsline {subsection}{\numberline {2.3}The SpriteManager (David Ickert)}{8}
 \contentsline {subsection}{\numberline {2.4}The Map (Matt Coley)}{8}
+\contentsline {subsection}{\numberline {2.5}Game Menu (Matt Coley)}{8}
+\contentsline {subsection}{\numberline {2.6}Main Menu (Matt Coley)}{8}
