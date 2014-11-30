@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Summary of Milestones}{3}
+\contentsline {subsection}{\numberline {1.1}Work Performed \& Required Breakdown}{3}
+\contentsline {subsubsection}{\numberline {1.1.1}First Milestone: Project Organization}{3}
+\contentsline {subsubsection}{\numberline {1.1.2}Second Milestone: Initial Implementation \& Map}{3}
+\contentsline {subsubsection}{\numberline {1.1.3}Third Milestone: Sprites, Animations, and Basic Controls}{4}
+\contentsline {subsubsection}{\numberline {1.1.4}Fourth Milestone: Implement Menus \& Refine Controls}{4}
+\contentsline {subsubsection}{\numberline {1.1.5}Fifth Milestone: Player Logic: Actions \& Combat}{4}
+\contentsline {subsubsection}{\numberline {1.1.6}Sixth Milestone: A* Path Finding}{4}
+\contentsline {subsubsection}{\numberline {1.1.7}Seventh Milestone: Enemy AI \& Combat}{4}
+\contentsline {subsubsection}{\numberline {1.1.8}Eighth Milestone: Implement User Interface}{5}
+\contentsline {subsubsection}{\numberline {1.1.9}Ninth Milestone: Polish \& Code Refinement}{5}
+\contentsline {section}{\numberline {2}Challenges}{5}
+\contentsline {subsection}{\numberline {2.1}Getting Started}{5}
+\contentsline {subsection}{\numberline {2.2}The Sprite Class (David Ickert)}{6}
+\contentsline {subsection}{\numberline {2.3}The SpriteManager (David Ickert)}{8}
+\contentsline {subsection}{\numberline {2.4}The Map (Matt Coley)}{8}

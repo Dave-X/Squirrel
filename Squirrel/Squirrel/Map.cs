@@ -125,7 +125,7 @@ namespace Squirrel
         /// </summary>
         public void resetMap()
         {
-            position = new Vector2(-mapSize.X / 2 + Game1.ScreenWidth / 2, -mapSize.Y / 2 + Game1.ScreenHeight / 2);
+            position = new Vector2(-mapSize.X / 2 + Game1.SCREEN_WIDTH / 2, -mapSize.Y / 2 + Game1.SCREEN_HEIGHT / 2);
         }
     }
 }

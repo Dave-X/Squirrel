@@ -20,7 +20,12 @@ namespace Squirrel
         SpriteBatch spriteBatch;
         SpriteManager spriteManager;
         Map map;
-        public static int ScreenWidth, ScreenHeight;
+
+        // Changed these to constants and declared here so the size can be set in the constructor.
+        // Graphics information.
+        public const int SCREEN_WIDTH = 800;
+        public const int SCREEN_HEIGHT = 600;
+        private const Boolean FULL_SCREEN = false;
 
         public static List<Sprite> Obstacles = new List<Sprite>();
 
@@ -28,9 +33,9 @@ namespace Squirrel
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferHeight = SCREEN_HEIGHT;
+            graphics.PreferredBackBufferWidth = SCREEN_WIDTH;
             Content.RootDirectory = "Content";
-
-
         }
 
         /// <summary>
@@ -42,9 +47,6 @@ namespace Squirrel
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            ScreenWidth = 800;
-            ScreenHeight = 600;
-
             map = new Map(this);
             Components.Add(map);
 

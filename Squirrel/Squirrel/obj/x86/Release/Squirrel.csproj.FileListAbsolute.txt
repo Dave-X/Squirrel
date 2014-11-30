@@ -1,0 +1,7 @@
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\sampleSpriteSheet.xnb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\ground.xnb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Squirrel.exe
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Squirrel.pdb
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Release\Squirrel.exe
+Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\obj\x86\Release\Squirrel.pdb
