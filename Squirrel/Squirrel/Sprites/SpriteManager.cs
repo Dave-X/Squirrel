@@ -17,14 +17,27 @@ namespace Squirrel
     /// </summary>
     public class SpriteManager : Microsoft.Xna.Framework.DrawableGameComponent
     {
-        SpriteBatch spriteBatch;
-        private List<Sprite> sprites = new List<Sprite>();
+        private SpriteBatch spriteBatch;
+        private List<Sprite> sprites = new List<Sprite>(); // Stores all the sprites.
         
         public SpriteManager(Game game)
             : base(game)
         {
-            // TODO: Construct any child components here
         }
+
+        // Public accessor for the sprites list.
+        public List<Sprite> Sprites
+        {
+            get
+            {
+                return sprites;
+            }
+            set
+            {
+                sprites = value;
+            }
+        }
+
 
         /// <summary>
         /// Allows the game component to perform any initialization it needs to before starting
@@ -33,7 +46,6 @@ namespace Squirrel
         public override void Initialize()
         {
             spriteBatch = new SpriteBatch(Game.GraphicsDevice);
-
             base.Initialize();
         }
 
@@ -43,14 +55,11 @@ namespace Squirrel
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
-            // TODO: Add your update code here
-
-            foreach (Sprite s in Game1.Obstacles)
+            // Update each sprite in the order it was drawn.
+            foreach (Sprite s in sprites)
             {
                 s.Update(gameTime);
             }
-
-
             base.Update(gameTime);
         }
 
@@ -59,7 +68,7 @@ namespace Squirrel
         {
             spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
             {
-                foreach (Sprite s in Game1.Obstacles)
+                foreach (Sprite s in sprites)
                 {
                     s.Draw(gameTime, spriteBatch);
                 }

@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Squirrel
 {
-    class AnimatedSprite : Sprite
+    public class AnimatedSprite : Sprite
     {
         Point frameSize; // This is the size of each frame within the sprite.  A sprite sheet is made up of a number of frames.
         Point currentFrame; // The starting frame number on the sheet as row, column.

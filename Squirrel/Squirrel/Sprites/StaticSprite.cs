@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Squirrel
 {
-    class StaticSprite : Sprite
+    public class StaticSprite : Sprite
     {
         public StaticSprite(Texture2D image, Vector2 position) : base(image, position)
         {

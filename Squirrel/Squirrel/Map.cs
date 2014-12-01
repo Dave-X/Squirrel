@@ -114,7 +114,7 @@ namespace Squirrel
             if (position.Y >= 0)                                                //Bottom boundary
                 position.Y = 0;
             //loop through and update the position of each obstacle relative to any map movement done this frame
-            foreach (Sprite obstacle in Game1.Obstacles)
+            foreach (Sprite obstacle in Game1.Obstacles.Sprites)
             {
                 obstacle.position += (oldPosition - this.position);
             }

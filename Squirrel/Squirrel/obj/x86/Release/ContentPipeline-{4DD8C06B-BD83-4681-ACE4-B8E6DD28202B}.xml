@@ -37,6 +37,42 @@
       <Output>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\quitButton.xnb</Output>
       <Time>2014-11-29T22:12:04-06:00</Time>
     </Item>
+    <Item>
+      <Source>Textures\Static\Rock_1.png</Source>
+      <Name>Textures\Static\Rock_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\Textures\Static\Rock_1.xnb</Output>
+      <Time>2014-11-30T18:24:25.9942912-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Rock_2.png</Source>
+      <Name>Textures\Static\Rock_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\Textures\Static\Rock_2.xnb</Output>
+      <Time>2014-11-30T18:31:16.1943701-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Rock_3.png</Source>
+      <Name>Textures\Static\Rock_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\Textures\Static\Rock_3.xnb</Output>
+      <Time>2014-11-30T18:31:16.1993702-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Home_Tree.png</Source>
+      <Name>Textures\Static\Home_Tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Dropbox\Github\Squirrel\Squirrel\Squirrel\bin\x86\Release\Content\Textures\Static\Home_Tree.xnb</Output>
+      <Time>2014-11-30T18:39:40.4610691-06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{4DD8C06B-BD83-4681-ACE4-B8E6DD28202B}</ContentProjectGUID>
