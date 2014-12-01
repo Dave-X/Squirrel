@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\sampleSpriteSheet.xnb</Output>
-      <Time>2014-11-23T23:33:18.0605599-06:00</Time>
+      <Time>2014-11-30T19:54:16.7463177-06:00</Time>
     </Item>
     <Item>
       <Source>ground.jpg</Source>
@@ -17,7 +17,79 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\ground.xnb</Output>
-      <Time>2014-11-24T11:53:52.9067825-06:00</Time>
+      <Time>2014-11-30T19:54:16.7316948-06:00</Time>
+    </Item>
+    <Item>
+      <Source>resumeButton.png</Source>
+      <Name>resumeButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\resumeButton.xnb</Output>
+      <Time>2014-11-30T19:54:16.7443139-06:00</Time>
+    </Item>
+    <Item>
+      <Source>quitButton.png</Source>
+      <Name>quitButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\quitButton.xnb</Output>
+      <Time>2014-11-30T19:54:16.7443139-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Rock_1.png</Source>
+      <Name>Textures\Static\Rock_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\Textures\Static\Rock_1.xnb</Output>
+      <Time>2014-11-30T19:54:16.7264726-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Rock_2.png</Source>
+      <Name>Textures\Static\Rock_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\Textures\Static\Rock_2.xnb</Output>
+      <Time>2014-11-30T19:54:16.7264726-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Rock_3.png</Source>
+      <Name>Textures\Static\Rock_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\Textures\Static\Rock_3.xnb</Output>
+      <Time>2014-11-30T19:54:16.7274748-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Static\Home_Tree.png</Source>
+      <Name>Textures\Static\Home_Tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\Textures\Static\Home_Tree.xnb</Output>
+      <Time>2014-11-30T19:54:16.7258486-06:00</Time>
+    </Item>
+    <Item>
+      <Source>exitButton.png</Source>
+      <Name>exitButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\exitButton.xnb</Output>
+      <Time>2014-11-30T19:59:17.8564561-06:00</Time>
+    </Item>
+    <Item>
+      <Source>startButton.png</Source>
+      <Name>startButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\school\2014fall\cs4332.501\Squirrel\Squirrel\Squirrel\bin\x86\Debug\Content\startButton.xnb</Output>
+      <Time>2014-11-30T19:59:17.8581074-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
