@@ -10,7 +10,7 @@ namespace Squirrel
     // Base class sprites.
     abstract public class Sprite
     {
-        protected Texture2D image;
+        public Texture2D image {get; set;}
         public Vector2 position; // Stores the position of this sprite.
 
         /// <summary>
