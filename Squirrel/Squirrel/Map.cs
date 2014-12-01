@@ -118,6 +118,19 @@ namespace Squirrel
             {
                 obstacle.position += (oldPosition - this.position);
             }
+            foreach (Sprite enemy in Game1.Enemies.Sprites)
+            {
+                enemy.position += (oldPosition - this.position);
+            }
+            foreach (Sprite nut in Game1.Nuts.Sprites)
+            {
+                nut.position += (oldPosition - this.position);
+            }
+            foreach (Sprite powerup in Game1.PowerUps.Sprites)
+            {
+                powerup.position += (oldPosition - this.position);
+            }
+            Game1.Hometree.Sprites[0].position += (oldPosition - this.position);
         }
 
         /// <summary>

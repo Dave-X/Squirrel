@@ -20,6 +20,7 @@ namespace Squirrel
         SpriteBatch spriteBatch;
         Map map;
         Menu menu;
+        MainMenu mainMenu;
 
         // Changed these to constants and declared here so the size can be set in the constructor.
         // Graphics information.
@@ -34,6 +35,8 @@ namespace Squirrel
         public static SpriteManager Obstacles;
         public static SpriteManager Hometree;
         public static AnimatedSprite Player;
+
+        public static GameStates gameState;
 
 
         public Game1()
@@ -74,6 +77,10 @@ namespace Squirrel
 
             menu = new Menu(this);
             Components.Add(menu);
+            mainMenu = new MainMenu(this);
+            Components.Add(mainMenu);
+
+            gameState = GameStates.Main_Menu;
 
             base.Initialize();
         }
@@ -119,16 +126,22 @@ namespace Squirrel
         protected override void Update(GameTime gameTime)
         {
             //skips over all game logic while game is paused
-            if (menu.isPaused)
+            if (gameState == GameStates.Paused)
             {
                 menu.Update(gameTime);  //needed so the update functionality in the menu class still works while paused
                 return;
             }
-            //opens the game menu
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
-                menu.isPaused = true;
-
-            // TODO: Add your update logic here
+            else if (gameState == GameStates.Main_Menu)
+            {
+                mainMenu.Update(gameTime);  //needed so the mainmenu functionality still updates
+                return;
+            }
+            else
+            {
+                //opens the game menu
+                if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                    gameState = GameStates.Paused;
+            }
 
             base.Update(gameTime);
         }
